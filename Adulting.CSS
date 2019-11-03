@@ -1,9 +1,6 @@
 body {
     padding: 0px;
 }
-p {
-    margin: 0%;
-}
 .backgroundBody{
     background-color: black;
 }
@@ -15,19 +12,6 @@ p {
     margin-bottom: 0px;
     padding: 0px;
 }
-.carousel.slide {
-    width: 30%;
-}
-h2 {
-    background-color: black;
-    color: white;
-    text-align: center;
-    border: solid;
-    border-color: black;
-}
-h3 {
-    margin: 2%;
-}
 .pokerRules {
     margin: 1%;
 }
@@ -38,7 +22,13 @@ h3 {
 .card-title, .salaryTreeTitle {
     text-align: center;
 }
-
+.card-title, card-text {
+    
+}
+.card-img {
+    
+    width: 100%;
+}
 .card-text, .card-title, .salaryTreeTitle {
     color: white;
 }

@@ -1,4 +1,4 @@
-//SALARY START
+//SALARY VARIABLES START
 var policeSalaryArray = [5000, 30000, 100000, 500000, 1000000];
 var assassinSalaryArray = [7000, 30000, 100000, 600000, 2000000];
 var criminalSalaryArray = [7000, 50000, 750000, 1000000, 3000000, 5000000];
@@ -26,7 +26,7 @@ var salesMobility = 1;
 var spyMobility = 2;
 
 
-//SALARY END
+//SALARY VARIABLES END
 //STRENGTHS START
 var policeStrengths = '<p class="card-text"><small class="text-muted"><div id="policeStrengths"><strong>ALL LEVELS=</strong> No effects from any space in "Life of Crime".<br>Double your dice total for movement when any player is in "Life of Crime", including you.<br>Any player passed by you in the "Life of Crime" immediately go to jail for 2 turns<br>When you are going through the Start space, you may choose to use the "Speed Trap" space and park there. While parked, you may choose to not move after rolling. You collect our salary and other assets or liabilities as any normal turn.<br><strong>@LEVEL 2=</strong> Every player passed by the cop on the game board pays the cop $500K or lose their next turn.<br><strong>@LEVEL 3=</strong> +1 Mobility<br><strong>@LEVEL 3=</strong> If the Assassin attempts a hit on you and fails, you may counter by attempting to shoot them. This is done by both players rolling 4 dice once. Whichever player has the highest total on the dice wins the shootout. If the Police wins the roll, the assassin goes to jail for 4 turns. If the assassin wins, nothing happens and play resumes as normal.<br><strong>@LEVEL 4=</strong> +1 Mobility<br></div></small></p>';
 var assassinStrengths = '<p class="card-text"><small class="text-muted"><strong>@LEVEL 2=</strong> When you are within 3 spaces of any player, you may attempt a hit on them. For example, if you are on a space, and a player lands two spaces in front or behind you, this counts as a qualifying distance.<br><strong>However</strong>, you can only attempt a hit if another player pays you to. When a player is in qualifying distance and you are going to attempt a hit, you announce to the other players you will do this and ask if anyone will pay the amount. A hit costs another player whatever amount the current salary of the assassin is. This cost may also be split amongst any number of the other players. This can be done before and after rolling and with any number of players.<br><strong>@LEVEL 3=</strong> +1 Mobility<br><strong>@LEVEL 4=</strong> +1 Mobility<br><strong>@LEVEL 4=</strong> +$1,000,000 for each successful hit.<br><strong>@LEVEL 4=</strong> You may now attempt hits on people within three spaces of you without needing a payment from other players.<br><br></small></p>';
